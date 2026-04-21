@@ -1,0 +1,307 @@
+import { defineConfig } from 'vitepress'
+
+export default defineConfig({
+  lang: 'zh-CN',
+  title: 'Claude代充 | 国内Claude Pro/Max订阅代充平台',
+  description: '专业Claude代充平台，支持Claude Pro（$20）、Claude Max 5x（$100）、Max 20x（$200）三档套餐。微信支付宝直付，无需海外信用卡，仅凭账号邮箱5分钟到账，安全零封号，2026年4月持续更新。',
+
+  lastUpdated: true,
+  cleanUrls: true,
+  ignoreDeadLinks: true,
+
+  sitemap: {
+    hostname: 'https://claude-recharge.com',
+    transformItems: (items) => {
+      const now = new Date().toISOString().split('T')[0]
+      return items.map(item => ({
+        ...item,
+        lastmod: now
+      }))
+    }
+  },
+
+  head: [
+    ['meta', { name: 'keywords', content: 'Claude代充,Claude代充值,Claude Pro代充,Claude Max代充,Claude充值,Claude订阅,Claude会员代充,Claude4代充,Claude代充平台,国内Claude代充,Claude会员开通,Claude代开通,Anthropic代充,Claude代充安全,Claude代充多少钱,claude pro充值,claude max充值,claude国内订阅' }],
+    ['meta', { name: 'robots', content: 'index,follow,max-snippet:-1,max-image-preview:large' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
+    ['meta', { property: 'og:title', content: 'Claude代充 - 国内Claude Pro/Max代充值平台 | 微信支付宝直付' }],
+    ['meta', { property: 'og:description', content: '专业Claude代充平台，Claude Pro/$100 Max/$200 Max代充值，微信支付宝直付，5分钟到账。安全零封号，已服务5000+用户。' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:url', content: 'https://claude-recharge.com' }],
+    ['meta', { property: 'og:site_name', content: 'Claude代充平台' }],
+    ['meta', { property: 'og:locale', content: 'zh_CN' }],
+
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:title', content: 'Claude代充 - Claude Pro/Max代充值 | 微信支付宝直付' }],
+    ['meta', { name: 'twitter:description', content: '专业Claude代充平台。Claude Pro/Max会员代充值，5分钟到账，安全零封号。' }],
+
+    ['meta', { name: 'msvalidate.01', content: 'BING_VERIFICATION_CODE_HERE' }],
+    ['meta', { name: 'google-site-verification', content: 'GOOGLE_VERIFICATION_CODE_HERE' }],
+
+    ['script', { type: 'application/ld+json' }, JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Claude代充平台",
+      "url": "https://claude-recharge.com",
+      "description": "专业Claude代充平台，提供Claude Pro/Max会员代充值服务",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "availableLanguage": "Chinese"
+      }
+    })],
+    ['script', { type: 'application/ld+json' }, JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Claude代充安全吗？需要提供密码吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "完全安全。我们的Claude代充服务只需要您的Claude账号邮箱（不是密码），通过正规渠道完成充值。已累计服务5000+用户，零封号记录。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Claude Pro、Max 5x和Max 20x有什么区别？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Claude Pro $20/月，适合普通用户；Claude Max 5x $100/月，使用额度是Pro的5倍，支持Claude Code优先访问；Claude Max 20x $200/月，20倍额度，适合重度用户和开发者团队。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Claude代充多久能到账？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "一般5分钟内到账。添加客服微信Luv12203后，选择方案、提供邮箱、完成付款，客服即刻为您操作。微信、支付宝均可付款。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "国内用户为什么需要Claude代充？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Claude官方只接受海外信用卡（Visa/MasterCard）付款，国内银行卡、微信、支付宝均无法直接支付。通过Claude代充服务，您可以用微信/支付宝轻松完成充值，无需办理海外银行卡。"
+          }
+        }
+      ]
+    })],
+    ['script', {}, `var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?2e3f5c9f50c34190ae43b4c3dd61195e";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();`
+    ],
+  ],
+
+  themeConfig: {
+    nav: [
+      { text: '🏠 首页', link: '/' },
+      {
+        text: '💳 Claude代充服务',
+        items: [
+          { text: 'Claude Pro代充', link: '/service/claude-pro' },
+          { text: 'Claude Max代充', link: '/service/claude-max' },
+          { text: 'Claude代充价格', link: '/pricing' }
+        ]
+      },
+      {
+        text: '📖 代充教程',
+        items: [
+          { text: 'Claude注册与使用入门', link: '/guide/getting-started' },
+          { text: 'Claude代充流程详解', link: '/guide/recharge-process' },
+          { text: 'Claude使用技巧', link: '/guide/tips' },
+          { text: 'Claude代充FAQ', link: '/guide/faq' }
+        ]
+      },
+      {
+        text: '📰 深度评测',
+        items: [
+          { text: '全部文章', link: '/blog/' },
+          { text: '🆕 2026最新Claude代充教程', link: '/blog/claude-recharge-tutorial-2026' },
+          { text: '🆕 Claude Max vs Pro对比', link: '/blog/claude-max-vs-pro-2026' },
+          { text: '🆕 Claude 4.6功能中文指南', link: '/blog/claude-4-6-features-guide' },
+          { text: '🆕 Claude Max 20x开通教程', link: '/blog/claude-max-20x-recharge-guide' },
+          { text: '🆕 Claude vs ChatGPT 5.4横评', link: '/blog/claude-vs-chatgpt5-2026' },
+          { text: '🛡️ Claude代充安全吗？', link: '/blog/claude-recharge-safety-guide' },
+          { text: '🏆 Claude代充哪家靠谱？', link: '/blog/claude-recharge-platform-guide' },
+          { text: 'Claude免费版限制解析', link: '/blog/claude-free-limits-2026' },
+          { text: 'Claude Pro vs 免费版', link: '/blog/claude-pro-vs-free' },
+          { text: 'Claude 4.6深度评测', link: '/blog/claude-4-6-review' },
+          { text: 'Claude vs ChatGPT vs Grok', link: '/blog/claude-vs-chatgpt-vs-grok' }
+        ]
+      },
+      {
+        text: '📰 Claude资讯',
+        items: [
+          { text: '全部资讯', link: '/news/' },
+          { text: '🆕 Claude Max代充完整教程', link: '/news/claude-max-daichong-guide-2026' },
+          { text: '🆕 Claude国内订阅指南', link: '/news/claude-china-subscription-guide-2026' },
+          { text: '🆕 Claude Max 5x vs 20x怎么选', link: '/news/claude-max-5x-vs-20x-guide-2026' },
+          { text: '🆕 Claude代充安全分析', link: '/news/claude-daichong-anquan-ma-fengxian-zhinan-2026' },
+          { text: '🆕 Claude代充多少钱？', link: '/news/claude-daichong-duoshao-qian-jiage-zhinan-2026' },
+          { text: '🆕 Claude Pro为什么值得订阅', link: '/news/claude-pro-why-subscribe-now-2026' },
+          { text: '🔍 Claude Code实战教程', link: '/news/claude-code-guide-2026' },
+          { text: '⚔️ Claude 4.6 vs GPT-5.4 vs Gemini', link: '/news/claude-46-vs-gpt54-vs-gemini-2026' }
+        ]
+      },
+      { text: '📞 联系代充', link: '/contact' }
+    ],
+
+    sidebar: {
+      '/guide/': [
+        {
+          text: 'Claude代充教程',
+          items: [
+            { text: 'Claude注册与使用入门', link: '/guide/getting-started' },
+            { text: 'Claude代充流程详解', link: '/guide/recharge-process' },
+            { text: 'Claude使用技巧', link: '/guide/tips' },
+            { text: 'Claude代充FAQ', link: '/guide/faq' }
+          ]
+        }
+      ],
+      '/blog/': [
+        {
+          text: '深度评测',
+          items: [
+            { text: '全部文章', link: '/blog/' },
+            { text: '🆕 2026最新Claude代充教程', link: '/blog/claude-recharge-tutorial-2026' },
+            { text: '🆕 Claude Max vs Pro对比', link: '/blog/claude-max-vs-pro-2026' },
+            { text: '🆕 Claude 4.6功能中文指南', link: '/blog/claude-4-6-features-guide' },
+            { text: '🆕 Claude Max 20x开通教程', link: '/blog/claude-max-20x-recharge-guide' },
+            { text: '🆕 Claude vs ChatGPT 5.4横评', link: '/blog/claude-vs-chatgpt5-2026' },
+            { text: '🛡️ Claude代充安全吗？', link: '/blog/claude-recharge-safety-guide' },
+            { text: '🏆 Claude代充哪家靠谱？', link: '/blog/claude-recharge-platform-guide' },
+            { text: 'Claude免费版限制解析', link: '/blog/claude-free-limits-2026' },
+            { text: 'Claude Pro vs 免费版', link: '/blog/claude-pro-vs-free' },
+            { text: 'Claude 4.6深度评测', link: '/blog/claude-4-6-review' },
+            { text: 'Claude vs ChatGPT vs Grok', link: '/blog/claude-vs-chatgpt-vs-grok' }
+          ]
+        }
+      ],
+      '/news/': [
+        {
+          text: 'Claude资讯',
+          items: [
+            { text: '全部资讯', link: '/news/' },
+            { text: '🆕 Claude Max代充完整教程', link: '/news/claude-max-daichong-guide-2026' },
+            { text: '🆕 Claude国内订阅指南', link: '/news/claude-china-subscription-guide-2026' },
+            { text: '🆕 Claude Max 5x vs 20x怎么选', link: '/news/claude-max-5x-vs-20x-guide-2026' },
+            { text: '🆕 Claude代充安全分析', link: '/news/claude-daichong-anquan-ma-fengxian-zhinan-2026' },
+            { text: '🆕 Claude代充多少钱？', link: '/news/claude-daichong-duoshao-qian-jiage-zhinan-2026' },
+            { text: '🆕 Claude Pro为什么值得订阅', link: '/news/claude-pro-why-subscribe-now-2026' },
+            { text: '🔍 Claude Code实战教程', link: '/news/claude-code-guide-2026' },
+            { text: '⚔️ Claude 4.6 vs GPT-5.4 vs Gemini', link: '/news/claude-46-vs-gpt54-vs-gemini-2026' }
+          ]
+        }
+      ],
+      '/service/': [
+        {
+          text: 'Claude代充服务',
+          items: [
+            { text: 'Claude Pro代充', link: '/service/claude-pro' },
+            { text: 'Claude Max代充', link: '/service/claude-max' },
+            { text: 'Claude代充价格', link: '/pricing' }
+          ]
+        }
+      ]
+    },
+
+    footer: {
+      message: '微信客服：Luv12203 ｜ 每天 9:00-23:00 在线',
+      copyright: '© 2025-2026 Claude代充平台 claude-recharge.com'
+    },
+
+    socialLinks: [],
+
+    outline: {
+      label: '本文目录',
+      level: [2, 3]
+    },
+
+    lastUpdated: {
+      text: '更新于'
+    },
+
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇'
+    },
+
+    search: {
+      provider: 'local',
+      options: {
+        translations: {
+          button: { buttonText: '搜索', buttonAriaLabel: '搜索' },
+          modal: {
+            noResultsText: '未找到相关结果',
+            resetButtonTitle: '清除查询',
+            footer: { selectText: '选择', navigateText: '切换' }
+          }
+        }
+      }
+    }
+  },
+
+  transformPageData(pageData) {
+    const SITE_HOST = 'https://claude-recharge.com'
+    const SITE_NAME = 'Claude代充平台'
+    const fm = pageData.frontmatter || {}
+    pageData.frontmatter.head = pageData.frontmatter.head || []
+
+    const cleanPath = pageData.relativePath
+      .replace(/\.md$/, '')
+      .replace(/\/index$/, '')
+    const canonicalUrl = cleanPath ? `${SITE_HOST}/${cleanPath}` : SITE_HOST
+    pageData.frontmatter.head.push(
+      ['link', { rel: 'canonical', href: canonicalUrl }]
+    )
+
+    const pageTitle = fm.title || pageData.title || SITE_NAME
+    const pageDesc = fm.description || pageData.description || ''
+    pageData.frontmatter.head.push(
+      ['meta', { property: 'og:title', content: pageTitle }],
+      ['meta', { property: 'og:description', content: pageDesc }],
+      ['meta', { property: 'og:url', content: canonicalUrl }]
+    )
+
+    if (pageData.relativePath !== 'index.md') {
+      const articleSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: pageTitle,
+        description: pageDesc,
+        datePublished: fm.date
+          ? new Date(fm.date).toISOString()
+          : new Date('2026-01-01').toISOString(),
+        dateModified: fm.lastUpdated
+          ? new Date(fm.lastUpdated).toISOString()
+          : new Date().toISOString(),
+        author: {
+          '@type': 'Organization',
+          name: SITE_NAME,
+          url: SITE_HOST
+        },
+        publisher: {
+          '@type': 'Organization',
+          name: SITE_NAME,
+          url: SITE_HOST
+        },
+        mainEntityOfPage: {
+          '@type': 'WebPage',
+          '@id': canonicalUrl
+        },
+        inLanguage: 'zh-CN'
+      }
+      pageData.frontmatter.head.push([
+        'script',
+        { type: 'application/ld+json' },
+        JSON.stringify(articleSchema)
+      ])
+    }
+  }
+})
