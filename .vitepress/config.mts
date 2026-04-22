@@ -104,6 +104,7 @@ export default defineConfig({
       {
         text: '💳 Claude代充服务',
         items: [
+          { text: '2026最新Claude会员开通全攻略｜三种方案，轻松解决国内订阅难题', link: '/guide/claude-huiyuan-guide-2026-04' },
           { text: 'Claude Pro代充', link: '/service/claude-pro' },
           { text: 'Claude Max代充', link: '/service/claude-max' },
           { text: 'Claude代充价格', link: '/pricing' }
