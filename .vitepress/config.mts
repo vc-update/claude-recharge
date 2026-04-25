@@ -104,6 +104,7 @@ export default defineConfig({
       {
         text: '💳 Claude代充服务',
         items: [
+          { text: 'Claude会员开通指南：国内用户如何充值 Claude Pro？2026年最新教程', link: '/guide/claude-huiyuan-chongzhi-guide-2026-04' },
           { text: '2026年Claude代充最全指南：国内用户如何安全快速完成订阅升级', link: '/guide/claude-recharge-guide-2026-04' },
           { text: 'Claude Pro订阅全攻略：国内开通指南与代充值服务（2026年4月更新）', link: '/guide/claude-pro-subscription-guide-202604' },
           { text: 'Claude官网充值完整指南：2026年最新套餐对比与代充流程', link: '/guide/claude-official-recharge-guide-2026-04' },
