@@ -99,63 +99,15 @@ export default defineConfig({
   ],
 
   themeConfig: {
+    logo: '/logo.svg',
+    siteTitle: 'Claude代充',
+
     nav: [
-      { text: '🏠 首页', link: '/' },
-      {
-        text: '💳 Claude代充服务',
-        items: [
-          { text: 'Claude Pro充值指南 2026年最新教程 | 安全快速代充服务', link: '/guide/claude-pro-recharge-guide-202604' },
-          { text: 'Claude会员开通指南：国内用户如何充值 Claude Pro？2026年最新教程', link: '/guide/claude-huiyuan-chongzhi-guide-2026-04' },
-          { text: '2026年Claude代充最全指南：国内用户如何安全快速完成订阅升级', link: '/guide/claude-recharge-guide-2026-04' },
-          { text: 'Claude Pro订阅全攻略：国内开通指南与代充值服务（2026年4月更新）', link: '/guide/claude-pro-subscription-guide-202604' },
-          { text: 'Claude官网充值完整指南：2026年最新套餐对比与代充流程', link: '/guide/claude-official-recharge-guide-2026-04' },
-          { text: '2026最新Claude会员开通全攻略｜三种方案，轻松解决国内订阅难题', link: '/guide/claude-huiyuan-guide-2026-04' },
-          { text: 'Claude Pro代充', link: '/service/claude-pro' },
-          { text: 'Claude Max代充', link: '/service/claude-max' },
-          { text: 'Claude代充价格', link: '/pricing' }
-        ]
-      },
-      {
-        text: '📖 代充教程',
-        items: [
-          { text: 'Claude注册与使用入门', link: '/guide/getting-started' },
-          { text: 'Claude代充流程详解', link: '/guide/recharge-process' },
-          { text: 'Claude使用技巧', link: '/guide/tips' },
-          { text: 'Claude代充FAQ', link: '/guide/faq' }
-        ]
-      },
-      {
-        text: '📰 深度评测',
-        items: [
-          { text: '全部文章', link: '/blog/' },
-          { text: '🆕 2026最新Claude代充教程', link: '/blog/claude-recharge-tutorial-2026' },
-          { text: '🆕 Claude Max vs Pro对比', link: '/blog/claude-max-vs-pro-2026' },
-          { text: '🆕 Claude 4.6功能中文指南', link: '/blog/claude-4-6-features-guide' },
-          { text: '🆕 Claude Max 20x开通教程', link: '/blog/claude-max-20x-recharge-guide' },
-          { text: '🆕 Claude vs ChatGPT 5.4横评', link: '/blog/claude-vs-chatgpt5-2026' },
-          { text: '🛡️ Claude代充安全吗？', link: '/blog/claude-recharge-safety-guide' },
-          { text: '🏆 Claude代充哪家靠谱？', link: '/blog/claude-recharge-platform-guide' },
-          { text: 'Claude免费版限制解析', link: '/blog/claude-free-limits-2026' },
-          { text: 'Claude Pro vs 免费版', link: '/blog/claude-pro-vs-free' },
-          { text: 'Claude 4.6深度评测', link: '/blog/claude-4-6-review' },
-          { text: 'Claude vs ChatGPT vs Grok', link: '/blog/claude-vs-chatgpt-vs-grok' }
-        ]
-      },
-      {
-        text: '📰 Claude资讯',
-        items: [
-          { text: '全部资讯', link: '/news/' },
-          { text: '🆕 Claude Max代充完整教程', link: '/news/claude-max-daichong-guide-2026' },
-          { text: '🆕 Claude国内订阅指南', link: '/news/claude-china-subscription-guide-2026' },
-          { text: '🆕 Claude Max 5x vs 20x怎么选', link: '/news/claude-max-5x-vs-20x-guide-2026' },
-          { text: '🆕 Claude代充安全分析', link: '/news/claude-daichong-anquan-ma-fengxian-zhinan-2026' },
-          { text: '🆕 Claude代充多少钱？', link: '/news/claude-daichong-duoshao-qian-jiage-zhinan-2026' },
-          { text: '🆕 Claude Pro为什么值得订阅', link: '/news/claude-pro-why-subscribe-now-2026' },
-          { text: '🔍 Claude Code实战教程', link: '/news/claude-code-guide-2026' },
-          { text: '⚔️ Claude 4.6 vs GPT-5.4 vs Gemini', link: '/news/claude-46-vs-gpt54-vs-gemini-2026' }
-        ]
-      },
-      { text: '📞 联系代充', link: '/contact' }
+      { text: '首页', link: '/' },
+      { text: '💳 代充教程', link: '/guide/getting-started' },
+      { text: '📰 深度评测', link: '/blog/' },
+      { text: '📡 最新资讯', link: '/news/' },
+      { text: '📞 联系代充', link: 'https://work.weixin.qq.com/kfid/kfc4c78659753e2cf8d' }
     ],
 
     sidebar: {
@@ -163,10 +115,17 @@ export default defineConfig({
         {
           text: 'Claude代充教程',
           items: [
+            { text: 'Claude充值完全指南：国内用户2026年最新充值方法与代充服务', link: '/guide/claude-chongzhi-guide-2026-04' },
             { text: 'Claude注册与使用入门', link: '/guide/getting-started' },
             { text: 'Claude代充流程详解', link: '/guide/recharge-process' },
+            { text: 'Claude Pro充值指南（2026最新）', link: '/guide/claude-pro-recharge-guide-202604' },
+            { text: 'Claude会员开通指南：国内如何充值 Claude Pro', link: '/guide/claude-huiyuan-chongzhi-guide-2026-04' },
+            { text: '2026年Claude代充最全指南', link: '/guide/claude-recharge-guide-2026-04' },
+            { text: 'Claude Pro订阅全攻略（2026年4月更新）', link: '/guide/claude-pro-subscription-guide-202604' },
+            { text: 'Claude官网充值完整指南：套餐对比与代充流程', link: '/guide/claude-official-recharge-guide-2026-04' },
+            { text: '2026最新Claude会员开通全攻略', link: '/guide/claude-huiyuan-guide-2026-04' },
             { text: 'Claude使用技巧', link: '/guide/tips' },
-            { text: 'Claude代充FAQ', link: '/guide/faq' }
+            { text: 'Claude代充常见问题FAQ', link: '/guide/faq' }
           ]
         }
       ],
@@ -175,43 +134,43 @@ export default defineConfig({
           text: '深度评测',
           items: [
             { text: '全部文章', link: '/blog/' },
-            { text: '🆕 2026最新Claude代充教程', link: '/blog/claude-recharge-tutorial-2026' },
-            { text: '🆕 Claude Max vs Pro对比', link: '/blog/claude-max-vs-pro-2026' },
-            { text: '🆕 Claude 4.6功能中文指南', link: '/blog/claude-4-6-features-guide' },
-            { text: '🆕 Claude Max 20x开通教程', link: '/blog/claude-max-20x-recharge-guide' },
-            { text: '🆕 Claude vs ChatGPT 5.4横评', link: '/blog/claude-vs-chatgpt5-2026' },
-            { text: '🛡️ Claude代充安全吗？', link: '/blog/claude-recharge-safety-guide' },
-            { text: '🏆 Claude代充哪家靠谱？', link: '/blog/claude-recharge-platform-guide' },
-            { text: 'Claude免费版限制解析', link: '/blog/claude-free-limits-2026' },
-            { text: 'Claude Pro vs 免费版', link: '/blog/claude-pro-vs-free' },
-            { text: 'Claude 4.6深度评测', link: '/blog/claude-4-6-review' },
-            { text: 'Claude vs ChatGPT vs Grok', link: '/blog/claude-vs-chatgpt-vs-grok' }
+            { text: '2026最新Claude代充教程（实测有效）', link: '/blog/grok-recharge-tutorial-2026' },
+            { text: 'Claude Max代充完整指南：Pro/Max全套餐', link: '/blog/grok-super-recharge-guide-2026' },
+            { text: 'Claude代充安全吗？风险与避坑指南', link: '/blog/grok-recharge-safety-guide' },
+            { text: 'Claude代充哪家靠谱？平台选择攻略', link: '/blog/grok-recharge-platform-guide' },
+            { text: 'Claude代充指南2026：国内订阅完整攻略', link: '/blog/grok-recharge-guide-2026' },
+            { text: 'Claude代充最稳定教程：2026年4月实测', link: '/blog/grok-daichong-supergrok-zuiwendig-jiaocheng-2026' },
+            { text: 'Claude怎么充值？完整充值教程（微信/支付宝）', link: '/blog/grok-daichong-zenme-chong-supergrok-jiaocheng-2026' },
+            { text: 'Claude Max 20x开通教程：企业级AI如何代充', link: '/blog/supergrok-heavy-recharge-guide' },
+            { text: 'Claude Max vs Pro怎么选？2026年详细对比', link: '/blog/supergrok-annual-vs-monthly' },
+            { text: 'Claude Pro月付使用指南：从开通到用好', link: '/blog/supergrok-annual-subscription-guide' },
+            { text: 'Claude代充流程完整攻略：5分钟搞定', link: '/blog/supergrok-monthly-recharge-guide' },
+            { text: 'Claude免费版限制解析：2026年还能用吗', link: '/blog/grok-free-limits-2026' },
+            { text: 'Claude Pro vs 免费版：全面功能对比', link: '/blog/supergrok-vs-free' },
+            { text: 'Claude 4.6功能中文完整指南', link: '/blog/grok4-features-chinese-guide' },
+            { text: 'Claude Sonnet 4.6深度评测：最强日用AI？', link: '/blog/grok4-review' },
+            { text: 'Claude Max 20x深度解析：$200/月值不值？', link: '/blog/supergrok-heavy-review' },
+            { text: 'Claude vs ChatGPT 5.4横评：哪个AI更强？', link: '/blog/grok4-vs-chatgpt5-2026' },
+            { text: 'Claude vs ChatGPT vs Grok 2026年三巨头横评', link: '/blog/grok-vs-chatgpt-vs-claude' },
+            { text: 'Claude Opus 4.7升级指南：旗舰模型如何开通', link: '/blog/grok-420-upgrade-guide' },
+            { text: 'Claude多任务实战评测：并行处理能力测试', link: '/blog/grok-42-multi-agent-review' },
+            { text: 'Claude注册教程2026：国内如何注册账号', link: '/blog/grok-register-tutorial-2026' }
           ]
         }
       ],
       '/news/': [
         {
-          text: 'Claude资讯',
+          text: '最新资讯',
           items: [
             { text: '全部资讯', link: '/news/' },
-            { text: '🆕 Claude Max代充完整教程', link: '/news/claude-max-daichong-guide-2026' },
-            { text: '🆕 Claude国内订阅指南', link: '/news/claude-china-subscription-guide-2026' },
-            { text: '🆕 Claude Max 5x vs 20x怎么选', link: '/news/claude-max-5x-vs-20x-guide-2026' },
-            { text: '🆕 Claude代充安全分析', link: '/news/claude-daichong-anquan-ma-fengxian-zhinan-2026' },
-            { text: '🆕 Claude代充多少钱？', link: '/news/claude-daichong-duoshao-qian-jiage-zhinan-2026' },
-            { text: '🆕 Claude Pro为什么值得订阅', link: '/news/claude-pro-why-subscribe-now-2026' },
-            { text: '🔍 Claude Code实战教程', link: '/news/claude-code-guide-2026' },
-            { text: '⚔️ Claude 4.6 vs GPT-5.4 vs Gemini', link: '/news/claude-46-vs-gpt54-vs-gemini-2026' }
-          ]
-        }
-      ],
-      '/service/': [
-        {
-          text: 'Claude代充服务',
-          items: [
-            { text: 'Claude Pro代充', link: '/service/claude-pro' },
-            { text: 'Claude Max代充', link: '/service/claude-max' },
-            { text: 'Claude代充价格', link: '/pricing' }
+            { text: 'Claude Max代充完整教程', link: '/news/claude-max-daichong-guide-2026' },
+            { text: 'Claude国内订阅完整指南', link: '/news/claude-china-subscription-guide-2026' },
+            { text: 'Claude Max 5x vs 20x深度对比', link: '/news/claude-max-5x-vs-20x-guide-2026' },
+            { text: 'Claude代充安全性完整分析', link: '/news/claude-daichong-anquan-ma-fengxian-zhinan-2026' },
+            { text: 'Claude代充多少钱？2026年最新指南', link: '/news/claude-daichong-duoshao-qian-jiage-zhinan-2026' },
+            { text: 'Claude Pro为什么值得订阅？', link: '/news/claude-pro-why-subscribe-now-2026' },
+            { text: 'Claude Code使用指南2026', link: '/news/claude-code-guide-2026' },
+            { text: 'Claude 4.6 vs GPT-5.4 vs Gemini 深度横评', link: '/news/claude-46-vs-gpt54-vs-gemini-2026' }
           ]
         }
       ]
