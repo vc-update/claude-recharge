@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'Claude代充 | 国内Claude Pro/Max订阅代充平台',
-  description: '专业Claude代充平台，支持Claude Pro（$20）、Claude Max 5x（$100）、Max 20x（$200）三档套餐。微信支付宝直付，无需海外信用卡，仅凭账号邮箱5分钟到账，安全零封号，2026年4月持续更新。',
+  title: 'Claude Pro充值代充 | Claude订阅/会员/Max套餐国内开通平台',
+  description: '2026年5月最新Claude Pro充值代充与Claude订阅开通平台，覆盖Claude会员、Claude Pro套餐、Claude Max 5x/20x代充。微信支付宝直付，无需海外信用卡，仅需账号邮箱无需密码，5分钟到账，风险透明并提供售后协助。',
 
   lastUpdated: true,
   cleanUrls: true,
@@ -21,19 +21,19 @@ export default defineConfig({
   },
 
   head: [
-    ['meta', { name: 'keywords', content: 'Claude代充,Claude代充值,Claude Pro代充,Claude Max代充,Claude充值,Claude订阅,Claude会员代充,Claude4代充,Claude代充平台,国内Claude代充,Claude会员开通,Claude代开通,Anthropic代充,Claude代充安全,Claude代充多少钱,claude pro充值,claude max充值,claude国内订阅' }],
+    ['meta', { name: 'keywords', content: 'Claude Pro充值,Claude订阅,Claude代充,Claude会员,Claude Pro套餐,Claude Max代充,Claude国内充值,Claude会员开通,Claude代充值,Claude Pro代充,Claude Max充值,Claude代充安全,Claude代充多少钱,claude pro充值,claude max充值' }],
     ['meta', { name: 'robots', content: 'index,follow,max-snippet:-1,max-image-preview:large' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
-    ['meta', { property: 'og:title', content: 'Claude代充 - 国内Claude Pro/Max代充值平台 | 微信支付宝直付' }],
-    ['meta', { property: 'og:description', content: '专业Claude代充平台，Claude Pro/$100 Max/$200 Max代充值，微信支付宝直付，5分钟到账。安全零封号，已服务5000+用户。' }],
+    ['meta', { property: 'og:title', content: 'Claude Pro充值代充 | Claude订阅/会员/Max套餐国内开通平台' }],
+    ['meta', { property: 'og:description', content: '2026年5月最新Claude Pro充值、Claude订阅与Claude会员开通服务，微信支付宝直付，无需海外信用卡，无需提供密码，风险透明并提供售后协助。' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:url', content: 'https://claude-recharge.com' }],
     ['meta', { property: 'og:site_name', content: 'Claude代充平台' }],
     ['meta', { property: 'og:locale', content: 'zh_CN' }],
 
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:title', content: 'Claude代充 - Claude Pro/Max代充值 | 微信支付宝直付' }],
-    ['meta', { name: 'twitter:description', content: '专业Claude代充平台。Claude Pro/Max会员代充值，5分钟到账，安全零封号。' }],
+    ['meta', { name: 'twitter:title', content: 'Claude Pro充值代充 | Claude订阅/会员/Max套餐' }],
+    ['meta', { name: 'twitter:description', content: 'Claude Pro充值、Claude订阅和Claude会员开通，微信支付宝直付，无需海外信用卡，无需提供密码。' }],
 
     ['meta', { name: 'msvalidate.01', content: 'BING_VERIFICATION_CODE_HERE' }],
     ['meta', { name: 'google-site-verification', content: 'GOOGLE_VERIFICATION_CODE_HERE' }],
@@ -59,7 +59,7 @@ export default defineConfig({
           "name": "Claude代充安全吗？需要提供密码吗？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "完全安全。我们的Claude代充服务只需要您的Claude账号邮箱（不是密码），通过正规渠道完成充值。已累计服务5000+用户，零封号记录。"
+            "text": "Claude代充不需要提供账号密码。我们会先确认账号状态，再按所选套餐协助充值；由于Claude官方存在账号风控，本站会提前说明风险并提供售后协助。"
           }
         },
         {
@@ -115,6 +115,11 @@ export default defineConfig({
         {
           text: 'Claude代充教程',
           items: [
+            { text: '"Claude订阅全攻略：2026年05月国内官网订阅、代充值与套餐选择指南"', link: '/guide/claude-subscription-guide-2026-05-505-2' },
+            { text: 'Claude订阅国内怎么开通？Pro/Max套餐与充值指南', link: '/guide/claude-subscription-guide-2026-05-core' },
+            { text: 'Claude Pro套餐是什么？价格、额度、功能详解', link: '/guide/claude-pro-plan-guide-2026-05' },
+            { text: 'Claude会员开通指南：Pro、Max、Team区别', link: '/guide/claude-membership-guide-2026-05' },
+            { text: 'Claude代充安全吗？流程、风险与避坑指南', link: '/guide/claude-daichong-safe-guide-2026-05' },
             { text: 'Claude订阅全攻略：2026年05月最新套餐对比、国内充值步骤与安全避坑指南', link: '/guide/claude-subscription-guide-2026-05-505' },
             { text: 'Claude订阅全攻略2026年05月最新：官网订阅、代充值、直连平台一篇搞定', link: '/guide/claude-subscription-guide-202605-504' },
             { text: 'Claude订阅完全指南2026年05月：国内代充值+套餐选择+使用攻略', link: '/guide/claude-subscribe-guide-2026-05' },
@@ -123,13 +128,12 @@ export default defineConfig({
             { text: '2026年05月最新Claude订阅全攻略：国内注册、代充值、套餐区别与安全使用指南', link: '/guide/claude-subscription-guide-2026-05-502' },
             { text: '2026年05月最新Claude订阅全攻略：国内开通、代充值步骤、套餐区别与常见问题', link: '/guide/claude-subscription-guide-2026-05' },
             { text: 'Claude订阅指南：2026年05月最新国内开通、套餐区别、代充值流程一次讲清', link: '/guide/claude-subscription-2026-05' },
-            { text: '2026年04月最新Claude订阅全攻略：国内开通、代充值步骤、套餐区别与常见问题', link: '/guide/claude-subscription-guide-2026-04-430' },
-            { text: '2026年04月最新Claude订阅指南：国内开通、代充值流程、套餐区别与常见问题', link: '/guide/claude-subscription-2026-04' },
-            { text: '"1｜2026年04月在线计算与Claude代充值全指南（安全、快速、正规）"', link: '/guide/keyword-1-claude-recharge-guide-2026-04' },
-            { text: 'Claude订阅完全指南：国内用户2026年04月最新充值教程', link: '/guide/claude-subscription-guide-202604' },
-            { text: '2026年04月最新｜Claude订阅完整攻略：注册、升级Pro、国内代充全流程', link: '/guide/claude-subscription-guide-2026-04-427-2' },
-            { text: 'Claude订阅完全指南：2026年04月最新国内使用攻略（官网+代充+直连）', link: '/guide/claude-subscription-guide-2026-04-427' },
-            { text: '2026年04月最新 Claude 订阅完整攻略：注册、充值、代充值全流程（国内用户适用）', link: '/guide/claude-subscription-guide-2026-04' },
+            { text: '2026年05月最新Claude订阅全攻略：国内开通、代充值步骤、套餐区别与常见问题', link: '/guide/claude-subscription-guide-2026-04-430' },
+            { text: '2026年05月最新Claude订阅指南：国内开通、代充值流程、套餐区别与常见问题', link: '/guide/claude-subscription-2026-04' },
+            { text: 'Claude订阅完全指南：国内用户2026年05月最新充值教程', link: '/guide/claude-subscription-guide-202604' },
+            { text: '2026年05月最新｜Claude订阅完整攻略：注册、升级Pro、国内代充全流程', link: '/guide/claude-subscription-guide-2026-04-427-2' },
+            { text: 'Claude订阅完全指南：2026年05月最新国内使用攻略（官网+代充+直连）', link: '/guide/claude-subscription-guide-2026-04-427' },
+            { text: '2026年05月最新 Claude 订阅完整攻略：注册、充值、代充值全流程（国内用户适用）', link: '/guide/claude-subscription-guide-2026-04' },
             { text: 'Claude Pro订阅完整指南：国内如何安全充值开通（2026年最新）', link: '/guide/claude-pro-subscription-guide-2026-04' },
             { text: 'Claude充值完全指南：国内用户2026年最新充值方法与代充服务', link: '/guide/claude-chongzhi-guide-2026-04' },
             { text: 'Claude注册与使用入门', link: '/guide/getting-started' },
@@ -137,7 +141,7 @@ export default defineConfig({
             { text: 'Claude Pro充值指南（2026最新）', link: '/guide/claude-pro-recharge-guide-202604' },
             { text: 'Claude会员开通指南：国内如何充值 Claude Pro', link: '/guide/claude-huiyuan-chongzhi-guide-2026-04' },
             { text: '2026年Claude代充最全指南', link: '/guide/claude-recharge-guide-2026-04' },
-            { text: 'Claude Pro订阅全攻略（2026年4月更新）', link: '/guide/claude-pro-subscription-guide-202604' },
+            { text: 'Claude Pro订阅全攻略（2026年5月更新）', link: '/guide/claude-pro-subscription-guide-202604' },
             { text: 'Claude官网充值完整指南：套餐对比与代充流程', link: '/guide/claude-official-recharge-guide-2026-04' },
             { text: '2026最新Claude会员开通全攻略', link: '/guide/claude-huiyuan-guide-2026-04' },
             { text: 'Claude使用技巧', link: '/guide/tips' },
@@ -155,7 +159,7 @@ export default defineConfig({
             { text: 'Claude代充安全吗？风险与避坑指南', link: '/blog/grok-recharge-safety-guide' },
             { text: 'Claude代充哪家靠谱？平台选择攻略', link: '/blog/grok-recharge-platform-guide' },
             { text: 'Claude代充指南2026：国内订阅完整攻略', link: '/blog/grok-recharge-guide-2026' },
-            { text: 'Claude代充最稳定教程：2026年4月实测', link: '/blog/grok-daichong-supergrok-zuiwendig-jiaocheng-2026' },
+            { text: 'Claude代充最稳定教程：2026年5月实测', link: '/blog/grok-daichong-supergrok-zuiwendig-jiaocheng-2026' },
             { text: 'Claude怎么充值？完整充值教程（微信/支付宝）', link: '/blog/grok-daichong-zenme-chong-supergrok-jiaocheng-2026' },
             { text: 'Claude Max 20x开通教程：企业级AI如何代充', link: '/blog/supergrok-heavy-recharge-guide' },
             { text: 'Claude Max vs Pro怎么选？2026年详细对比', link: '/blog/supergrok-annual-vs-monthly' },
