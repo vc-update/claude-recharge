@@ -115,6 +115,7 @@ export default defineConfig({
         {
           text: 'Claude代充教程',
           items: [
+            { text: 'Claude订阅终极指南2026年05月最新版：国内代充值教程与套餐选择全攻略', link: '/guide/claude-subscription-guide-2026-05-509' },
             { text: 'Claude订阅完全指南2026年5月最新版：国内开通、套餐对比与代充值教程', link: '/guide/claude-subscription-guide-2026-05-508' },
             { text: 'Claude订阅完整指南2026年05月最新：国内代充值教程与套餐选择全攻略', link: '/guide/claude-subscription-guide-2026-05-507-3' },
             { text: '"Claude订阅全攻略：2026年05月国内升级、代充流程、套餐选择与避坑指南"', link: '/guide/claude-subscription-guide-2026-05-507-2' },
