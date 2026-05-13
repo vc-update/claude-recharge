@@ -10,7 +10,7 @@ date: 2026-04-20
 
 # Claude Max 5x vs 20x深度对比：$100还是$200？（2026）
 
-> 最后更新：2026年4月20日
+> 最后更新：2026年5月5日
 
 Claude Max分两档：5x（$100/月）和20x（$200/月）。价格差了$100，值不值？本文深度对比两档的实际差异，帮你做出最优选择。
 
@@ -158,9 +158,9 @@ Max 20x每天额度 = 约1000-2000次完整对话
 <div class="wechat-cta">
   <div class="text">
     <h3>🔥 Claude Max代充，告知所需档位即刻办理</h3>
-    <p>添加客服微信 <strong>Luv12203</strong>，Max 5x（约￥750）或Max 20x（约￥1500）代充，5-10分钟到账。</p>
+    <p>访问 <strong><a href="https://chatgpta1.top/">chatgpta1.top</a></strong>，Max 5x（约￥750）或Max 20x（约￥1500）代充，5-10分钟到账。</p>
   </div>
-  <img src="https://www.snakegpt.vip/file/system/others/1765252538015_mx1y.png" alt="Claude代充客服微信二维码 Luv12203" />
+
 </div>
 
 **相关阅读**：

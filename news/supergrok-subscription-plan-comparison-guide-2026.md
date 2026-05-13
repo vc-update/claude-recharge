@@ -10,7 +10,7 @@ date: 2026-04-20
 
 # Claude Pro/Max 5x/Max 20x三档怎么选？2026年最全对比
 
-> 最后更新：2026年4月20日
+> 最后更新：2026年5月5日
 
 很多用户在开通Claude时面临选择困难：$20的Pro够不够用？$100的Max 5x值不值？$200的Max 20x是不是噱头？本文给出最直接的答案。
 
@@ -150,9 +150,9 @@ Claude目前没有年付折扣，不用等。
 <div class="wechat-cta">
   <div class="text">
     <h3>🔥 找到你的Claude套餐，立即开通</h3>
-    <p>添加客服微信 <strong>Luv12203</strong>，告知所需套餐，Claude Pro/Max代充当日到账，微信/支付宝付款。</p>
+    <p>访问 <strong><a href="https://chatgpta1.top/">chatgpta1.top</a></strong>，告知所需套餐，Claude Pro/Max代充当日到账，在线付款。</p>
   </div>
-  <img src="https://www.snakegpt.vip/file/system/others/1765252538015_mx1y.png" alt="Claude代充客服微信二维码 Luv12203" />
+
 </div>
 
 **相关阅读**：

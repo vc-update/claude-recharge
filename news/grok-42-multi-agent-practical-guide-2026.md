@@ -10,7 +10,7 @@ date: 2026-04-20
 
 # Claude多Agent协作实战教程2026：一个人顶一个团队
 
-> 最后更新：2026年4月20日
+> 最后更新：2026年5月5日
 
 Claude的Projects功能彻底改变了AI使用方式——你可以为不同角色创建独立项目，让Claude充当研究员、编辑、程序员、运营等多个角色，形成真正的**AI协作工作流**。本文手把手教你搭建这套系统。
 
@@ -156,14 +156,14 @@ Projects之间本身不互通，但可以手动"传递"：
 | Claude Max 5x | $100/月 | 推荐，额度充足，Claude Code优先 |
 | Claude Max 20x | $200/月 | 重度开发团队首选 |
 
-如需开通Claude Pro或Max，可通过代充方式，国内微信支付宝均可付款。
+如需开通Claude Pro或Max，可通过代充方式，国内在线即可付款。
 
 <div class="wechat-cta">
   <div class="text">
     <h3>🔥 开通Claude Pro/Max，解锁Projects多Agent功能</h3>
-    <p>添加客服微信 <strong>Luv12203</strong>，5-10分钟完成代充，即刻开始多Agent工作流搭建。</p>
+    <p>访问 <strong><a href="https://chatgpta1.top/">chatgpta1.top</a></strong>，5-10分钟完成代充，即刻开始多Agent工作流搭建。</p>
   </div>
-  <img src="https://www.snakegpt.vip/file/system/others/1765252538015_mx1y.png" alt="Claude代充客服微信二维码 Luv12203" />
+
 </div>
 
 **相关阅读**：

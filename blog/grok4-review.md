@@ -10,9 +10,9 @@ date: 2026-04-20
 
 # Claude Sonnet 4.6深度评测：2026年最强日用AI？
 
-> 最后更新：2026年4月20日 · 经实测验证
+> 最后更新：2026年5月5日 · 经实测验证
 
-Claude Sonnet 4.6是Anthropic Claude 4系列的主力模型，定位介于旗舰Opus 4.7和轻量Haiku 4.5之间。2026年4月，Sonnet 4.6已成为Claude付费套餐的默认首选模型。本文通过大量实测任务，给出这款模型的客观评价。
+Claude Sonnet 4.6是Anthropic Claude 4系列的主力模型，定位介于旗舰Opus 4.7和轻量Haiku 4.5之间。2026年5月，Sonnet 4.6已成为Claude付费套餐的默认首选模型。本文通过大量实测任务，给出这款模型的客观评价。
 
 ## Claude 4系列模型定位
 
@@ -119,9 +119,9 @@ Claude Pro套餐（$20/月）提供Sonnet 4.6无限制访问和Opus 4.7访问，
 <div class="wechat-cta">
   <div class="text">
     <h3>🔥 解锁Claude Sonnet 4.6完整功能</h3>
-    <p>添加客服微信 <strong>Luv12203</strong>，代充Claude Pro，解锁5倍额度和Opus 4.7旗舰模型，145元/月起。</p>
+    <p>访问 <strong><a href="https://chatgpta1.top/">chatgpta1.top</a></strong>，代充Claude Pro，解锁5倍额度和Opus 4.7旗舰模型，145元/月起。</p>
   </div>
-  <img src="https://www.snakegpt.vip/file/system/others/1765252538015_mx1y.png" alt="Claude代充客服微信二维码 Luv12203" />
+
 </div>
 
 <style>

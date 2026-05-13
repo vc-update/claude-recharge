@@ -1,6 +1,6 @@
 ---
 title: Grok余额代充 | Grok代充平台
-description: Grok余额代充、API额度代充服务，支持微信支付宝付款，通过Grok代充灵活充值不绑定订阅，适合开发者和按需使用的用户。
+description: Grok余额代充、API额度代充服务，支持在线支付付款，通过Grok代充灵活充值不绑定订阅，适合开发者和按需使用的用户。
 head:
   - - meta
     - name: keywords
@@ -28,7 +28,7 @@ date: 2026-04-18
 | $50 | 详询客服 | 中度使用 |
 | $100+ | 详询客服 | 重度/开发者 |
 
-具体人民币价格因汇率浮动，添加客服微信获取实时报价。
+具体人民币价格因汇率浮动，访问 chatgpta1.top获取实时报价。
 
 ## 余额充值 vs SuperGrok订阅
 
@@ -47,7 +47,7 @@ date: 2026-04-18
   <div class="step">
     <div class="num">1</div>
     <h4>联系客服</h4>
-    <p>微信搜索 Luv12203</p>
+    <p>访问 chatgpta1.top</p>
   </div>
   <div class="step">
     <div class="num">2</div>
@@ -62,14 +62,14 @@ date: 2026-04-18
   <div class="step">
     <div class="num">4</div>
     <h4>扫码付款</h4>
-    <p>微信/支付宝即时到账</p>
+    <p>在线即时到账</p>
   </div>
 </div>
 
 <div class="wechat-cta">
   <div class="text">
     <h3>💳 灵活充值，按需使用</h3>
-    <p>微信添加 <strong>Luv12203</strong>，发送「Grok代充」获取实时报价。</p>
+    <p>访问 <strong>chatgpta1.top</strong>，发送「Grok代充」获取实时报价。</p>
   </div>
-  <img src="https://www.snakegpt.vip/file/system/others/1765252538015_mx1y.png" alt="Grok代充客服微信二维码 Luv12203" />
+
 </div>

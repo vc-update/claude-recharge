@@ -10,7 +10,7 @@ date: 2026-04-20
 
 # Claude国内订阅完整指南2026：从注册到代充全攻略
 
-> 最后更新：2026年4月20日
+> 最后更新：2026年5月5日
 
 本文是专为中国大陆用户设计的Claude订阅完整指南，覆盖注册、套餐选择、支付、使用全链路，是你需要的唯一一篇参考文章。
 
@@ -40,7 +40,7 @@ Claude.ai在中国大陆需要科学上网工具才能正常访问。
 
 **使用过程中的网络要求**：
 - Claude对话：普通稳定性即可
-- 代充操作：通过客服微信完成，不需要稳定网络
+- 代充操作：通过代充网站 chatgpta1.top完成，不需要稳定网络
 
 ---
 
@@ -95,10 +95,10 @@ Claude.ai在中国大陆需要科学上网工具才能正常访问。
 
 ### 5.1 代充流程（5步完成）
 
-1. **添加客服微信**：搜索 Luv12203 或扫文末二维码
+1. **访问 chatgpta1.top**：搜索 chatgpta1.top 或扫文末二维码
 2. **告知套餐**："我要代充Claude Pro"
 3. **提供邮箱**：只需要Claude账号邮箱，不需要密码
-4. **扫码付款**：微信或支付宝均可
+4. **扫码付款**：在线均可
 5. **验证到账**：登录claude.ai → Settings → Billing
 
 ### 5.2 到账时间
@@ -157,9 +157,9 @@ Anthropic服务条款不允许账号共享。建议每人注册独立账号。
 <div class="wechat-cta">
   <div class="text">
     <h3>🔥 Claude国内订阅，找我们最省心</h3>
-    <p>添加客服微信 <strong>Luv12203</strong>，Claude Pro/Max代充，全程指导，5分钟完成，微信/支付宝付款。</p>
+    <p>访问 <strong><a href="https://chatgpta1.top/">chatgpta1.top</a></strong>，Claude Pro/Max代充，全程指导，5分钟完成，在线付款。</p>
   </div>
-  <img src="https://www.snakegpt.vip/file/system/others/1765252538015_mx1y.png" alt="Claude代充客服微信二维码 Luv12203" />
+
 </div>
 
 **相关阅读**：

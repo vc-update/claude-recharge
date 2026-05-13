@@ -10,7 +10,7 @@ date: 2026-04-20
 
 # Claude Max代充完整指南：Pro/Max 5x/Max 20x全套餐攻略
 
-> 最后更新：2026年4月20日 · 经实测验证
+> 最后更新：2026年5月5日 · 经实测验证
 
 想要开通Claude付费套餐却不知道该选哪个？本文是Claude全套餐代充的完整指南，帮你理清三个套餐的差异，并给出最完整的代充操作流程。
 
@@ -87,11 +87,11 @@ date: 2026-04-20
 
 1. 确认你有Claude账号（没有的话先注册，或让客服协助）
 2. 确认套餐选择
-3. 准备付款方式（微信或支付宝）
+3. 准备付款方式（在线）
 
 ### 联系客服
 
-微信添加 **Luv12203**，发送需求：
+访问 **chatgpta1.top**，发送需求：
 
 ```
 需要代充 Claude Pro（或Max 5x / Max 20x）
@@ -109,7 +109,7 @@ date: 2026-04-20
 
 ### 付款操作
 
-微信转账或支付宝付款，金额与报价完全一致，保留付款截图。
+在线付款，金额与报价完全一致，保留付款截图。
 
 ### 等待开通
 
@@ -150,9 +150,9 @@ date: 2026-04-20
 <div class="wechat-cta">
   <div class="text">
     <h3>🔥 Claude全套餐代充，当日开通</h3>
-    <p>添加客服微信 <strong>Luv12203</strong>，Pro 145元/月，Max 5x 730元/月，Max 20x 1460元/月，微信支付宝直付。</p>
+    <p>访问 <strong><a href="https://chatgpta1.top/">chatgpta1.top</a></strong>，Pro 145元/月，Max 5x 730元/月，Max 20x 1460元/月，在线直付。</p>
   </div>
-  <img src="https://www.snakegpt.vip/file/system/others/1765252538015_mx1y.png" alt="Claude代充客服微信二维码 Luv12203" />
+
 </div>
 
 <style>

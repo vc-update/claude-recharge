@@ -10,7 +10,7 @@ date: 2026-04-20
 
 # Claude 4.6功能中文完整指南（2026）
 
-> 最后更新：2026年4月20日 · 经实测验证
+> 最后更新：2026年5月5日 · 经实测验证
 
 Claude 4系列（包括Sonnet 4.6、Opus 4.7、Haiku 4.5）是Anthropic在2025-2026年推出的新一代AI模型。本文作为面向中文用户的完整功能指南，系统介绍Claude 4系列的所有核心能力，以及国内如何通过代充完整体验。
 
@@ -124,14 +124,14 @@ Claude在代码和长文档上的优势最为明显。
 2. 免费版体验基本功能
 3. 通过代充升级Pro/Max享受完整功能
 
-代充联系微信 **Luv12203**，提供账号邮箱即可，5-15分钟开通。
+代充联系在线 **chatgpta1.top**，提供账号邮箱即可，5-15分钟开通。
 
 <div class="wechat-cta">
   <div class="text">
     <h3>🔥 解锁Claude 4.6全部功能</h3>
-    <p>添加客服微信 <strong>Luv12203</strong>，代充Claude Pro/Max，200K上下文、Opus 4.7、Projects全解锁。</p>
+    <p>访问 <strong><a href="https://chatgpta1.top/">chatgpta1.top</a></strong>，代充Claude Pro/Max，200K上下文、Opus 4.7、Projects全解锁。</p>
   </div>
-  <img src="https://www.snakegpt.vip/file/system/others/1765252538015_mx1y.png" alt="Claude代充客服微信二维码 Luv12203" />
+
 </div>
 
 <style>

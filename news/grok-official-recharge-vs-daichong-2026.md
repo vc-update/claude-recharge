@@ -10,7 +10,7 @@ date: 2026-04-20
 
 # Claude官网充值 vs 代充：哪个更适合国内用户？（2026）
 
-> 最后更新：2026年4月20日
+> 最后更新：2026年5月5日
 
 国内用户订阅Claude有两条路：自己折腾官网充值，或者找代充服务。两种方式各有什么利弊？本文逐项对比，帮你做出最优选择。
 
@@ -73,7 +73,7 @@ date: 2026-04-20
 
 ### 3.1 代充的操作流程
 
-1. 添加客服微信（Luv12203）
+1. 访问 chatgpta1.top（chatgpta1.top）
 2. 告知需要的套餐和账号邮箱
 3. 确认价格，扫码付款
 4. 等待5-10分钟，验证到账
@@ -133,9 +133,9 @@ date: 2026-04-20
 <div class="wechat-cta">
   <div class="text">
     <h3>🔥 选择更省心的代充方式</h3>
-    <p>添加客服微信 <strong>Luv12203</strong>，无需境外银行卡，10分钟开通Claude Pro，失败全额退款。</p>
+    <p>访问 <strong><a href="https://chatgpta1.top/">chatgpta1.top</a></strong>，无需境外银行卡，10分钟开通Claude Pro，失败全额退款。</p>
   </div>
-  <img src="https://www.snakegpt.vip/file/system/others/1765252538015_mx1y.png" alt="Claude代充客服微信二维码 Luv12203" />
+
 </div>
 
 **相关阅读**：

@@ -1,6 +1,6 @@
 ---
 title: Claude代充流程完整攻略：5分钟搞定全流程
-description: 2026年最新Claude代充完整攻略，从账号准备到代充成功的每一步详解，支持Pro/Max 5x/Max 20x全套餐，微信支付宝5分钟到账。
+description: 2026年最新Claude代充完整攻略，从账号准备到代充成功的每一步详解，支持Pro/Max 5x/Max 20x全套餐，5分钟到账。
 head:
   - - meta
     - name: keywords
@@ -10,7 +10,7 @@ date: 2026-04-20
 
 # Claude代充流程完整攻略：5分钟搞定全流程
 
-> 最后更新：2026年4月20日 · 经实测验证
+> 最后更新：2026年5月5日 · 经实测验证
 
 国内用户订阅Claude最大的障碍是支付问题：Anthropic只接受境外信用卡，国内银行卡和常见虚拟卡均无法直接付款。代充服务解决了这个痛点。
 
@@ -62,9 +62,9 @@ date: 2026-04-20
 
 ## 第三阶段：联系代充客服
 
-### 添加微信客服
+### 访问 chatgpta1.top客服
 
-微信搜索并添加：**Luv12203**
+访问：**chatgpta1.top**
 
 添加后发送以下信息：
 ```
@@ -95,7 +95,7 @@ date: 2026-04-20
 
 ### 付款操作
 
-确认价格后，通过微信或支付宝向客服付款。
+确认价格后，通过在线向客服付款。
 
 **重要**：
 - 付款后保留转账截图
@@ -149,9 +149,9 @@ date: 2026-04-20
 <div class="wechat-cta">
   <div class="text">
     <h3>🔥 照着流程来，5分钟开通Claude</h3>
-    <p>添加客服微信 <strong>Luv12203</strong>，提供邮箱+套餐需求，支付后5-15分钟内完成代充。</p>
+    <p>访问 <strong><a href="https://chatgpta1.top/">chatgpta1.top</a></strong>，提供邮箱+套餐需求，支付后5-15分钟内完成代充。</p>
   </div>
-  <img src="https://www.snakegpt.vip/file/system/others/1765252538015_mx1y.png" alt="Claude代充客服微信二维码 Luv12203" />
+
 </div>
 
 <style>

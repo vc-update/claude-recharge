@@ -10,7 +10,7 @@ date: 2026-04-20
 
 # Claude Projects功能深度使用教程：让AI记住你的一切
 
-> 最后更新：2026年4月20日
+> 最后更新：2026年5月5日
 
 Claude Projects是Pro及以上订阅用户独享的核心功能，它让Claude能够"记住"你的工作背景、偏好和知识库，实现真正的持续合作。本文是最完整的Projects使用指南。
 
@@ -54,7 +54,7 @@ Projects是一个持久的工作空间，它包含：
 
 **示例系统提示（内容创作者）：**
 ```
-你是我的内容创作助手。我是一名专注于AI工具评测的自媒体作者，主要在知乎和微信公众号发布内容，目标读者是科技爱好者和职场人士。
+你是我的内容创作助手。我是一名专注于AI工具评测的自媒体作者，主要在知乎和网站发布内容，目标读者是科技爱好者和职场人士。
 
 写作风格要求：
 - 语言口语化，像在和朋友解释一样
@@ -175,9 +175,9 @@ Projects内的对话和普通对话使用相同额度池。节省额度的方法
 <div class="wechat-cta">
   <div class="text">
     <h3>🔥 开通Claude Pro，解锁Projects长期记忆功能</h3>
-    <p>添加客服微信 <strong>Luv12203</strong>，5分钟代充Claude Pro，即刻创建你的第一个Project。</p>
+    <p>访问 <strong><a href="https://chatgpta1.top/">chatgpta1.top</a></strong>，5分钟代充Claude Pro，即刻创建你的第一个Project。</p>
   </div>
-  <img src="https://www.snakegpt.vip/file/system/others/1765252538015_mx1y.png" alt="Claude代充客服微信二维码 Luv12203" />
+
 </div>
 
 **相关阅读**：

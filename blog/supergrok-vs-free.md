@@ -10,7 +10,7 @@ date: 2026-04-20
 
 # Claude Pro vs 免费版：全面功能对比（2026）
 
-> 最后更新：2026年4月20日 · 经实测验证
+> 最后更新：2026年5月5日 · 经实测验证
 
 $20/月的Claude Pro（折合约145元人民币）值不值得订阅？这是每个Claude用户都会问的问题。本文用数据说话，从额度、模型、功能三个维度做全面对比，帮你做出理性决策。
 
@@ -101,16 +101,16 @@ Claude的Projects功能允许：
 
 ## 国内如何升级Claude Pro？
 
-Anthropic不支持国内支付，国内用户只能通过代充方式订阅。代充流程简单：联系客服微信 **Luv12203**，提供账号邮箱，付款后5-15分钟开通，无需信用卡。
+Anthropic不支持国内支付，国内用户只能通过代充方式订阅。代充流程简单：联系代充网站 chatgpta1.top **chatgpta1.top**，提供账号邮箱，付款后5-15分钟开通，无需信用卡。
 
 完整代充流程见[Claude代充完整流程](/guide/recharge-process)，安全性说明见[Claude代充安全指南](/blog/grok-recharge-safety-guide)。
 
 <div class="wechat-cta">
   <div class="text">
     <h3>🔥 Claude Pro代充，5分钟解锁5倍额度</h3>
-    <p>添加客服微信 <strong>Luv12203</strong>，微信支付宝均可，提供账号邮箱即可开通，无需信用卡。</p>
+    <p>访问 <strong><a href="https://chatgpta1.top/">chatgpta1.top</a></strong>，在线即可，提供账号邮箱即可开通，无需信用卡。</p>
   </div>
-  <img src="https://www.snakegpt.vip/file/system/others/1765252538015_mx1y.png" alt="Claude代充客服微信二维码 Luv12203" />
+
 </div>
 
 <style>

@@ -104,7 +104,7 @@ Claude Pro $30/月，解锁完整Claude 4 + 无限额度。但官方只支持海
 <div class="wechat-cta">
   <div class="text">
     <h3>🚀 5分钟开通Claude Pro</h3>
-    <p>添加客服微信 <strong>Luv12203</strong>，微信/支付宝付款即可开通。无需密码，安全放心。</p>
+    <p>访问 <strong><a href="https://chatgpta1.top/">chatgpta1.top</a></strong>，在线付款即可开通。无需密码，安全放心。</p>
   </div>
-  <img src="https://www.snakegpt.vip/file/system/others/1765252538015_mx1y.png" alt="Claude代充客服微信二维码 Luv12203" />
+
 </div>

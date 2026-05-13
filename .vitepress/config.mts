@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'zh-CN',
   title: 'Claude Pro充值代充 | Claude订阅/会员/Max套餐国内开通平台',
-  description: '2026年5月最新Claude Pro充值代充与Claude订阅开通平台，覆盖Claude会员、Claude Pro套餐、Claude Max 5x/20x代充。微信支付宝直付，无需海外信用卡，仅需账号邮箱无需密码，5分钟到账，风险透明并提供售后协助。',
+  description: '2026年5月最新Claude Pro充值代充与Claude订阅开通平台，覆盖Claude会员、Claude Pro套餐、Claude Max 5x/20x代充。无需海外信用卡，仅需账号邮箱无需密码，5分钟到账，风险透明并提供售后协助。',
 
   lastUpdated: true,
   cleanUrls: true,
@@ -25,7 +25,7 @@ export default defineConfig({
     ['meta', { name: 'robots', content: 'index,follow,max-snippet:-1,max-image-preview:large' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
     ['meta', { property: 'og:title', content: 'Claude Pro充值代充 | Claude订阅/会员/Max套餐国内开通平台' }],
-    ['meta', { property: 'og:description', content: '2026年5月最新Claude Pro充值、Claude订阅与Claude会员开通服务，微信支付宝直付，无需海外信用卡，无需提供密码，风险透明并提供售后协助。' }],
+    ['meta', { property: 'og:description', content: '2026年5月最新Claude Pro充值、Claude订阅与Claude会员开通服务，无需海外信用卡，无需提供密码，风险透明并提供售后协助。' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:url', content: 'https://claude-recharge.com' }],
     ['meta', { property: 'og:site_name', content: 'Claude代充平台' }],
@@ -33,7 +33,7 @@ export default defineConfig({
 
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:title', content: 'Claude Pro充值代充 | Claude订阅/会员/Max套餐' }],
-    ['meta', { name: 'twitter:description', content: 'Claude Pro充值、Claude订阅和Claude会员开通，微信支付宝直付，无需海外信用卡，无需提供密码。' }],
+    ['meta', { name: 'twitter:description', content: 'Claude Pro充值、Claude订阅和Claude会员开通，无需海外信用卡，无需提供密码。' }],
 
     ['meta', { name: 'msvalidate.01', content: 'BING_VERIFICATION_CODE_HERE' }],
     ['meta', { name: 'google-site-verification', content: 'GOOGLE_VERIFICATION_CODE_HERE' }],
@@ -75,7 +75,7 @@ export default defineConfig({
           "name": "Claude代充多久能到账？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "一般5分钟内到账。添加客服微信Luv12203后，选择方案、提供邮箱、完成付款，客服即刻为您操作。微信、支付宝均可付款。"
+            "text": "一般5分钟内到账。访问代充网站 chatgpta1.top，选择方案、提供邮箱、完成付款，即刻为您操作。"
           }
         },
         {
@@ -83,7 +83,7 @@ export default defineConfig({
           "name": "国内用户为什么需要Claude代充？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Claude官方只接受海外信用卡（Visa/MasterCard）付款，国内银行卡、微信、支付宝均无法直接支付。通过Claude代充服务，您可以用微信/支付宝轻松完成充值，无需办理海外银行卡。"
+            "text": "Claude官方只接受海外信用卡（Visa/MasterCard）付款，国内银行卡均无法直接支付。通过Claude代充服务，您可以轻松完成充值，无需办理海外银行卡。详情访问 chatgpta1.top。"
           }
         }
       ]
@@ -107,7 +107,7 @@ export default defineConfig({
       { text: '💳 代充教程', link: '/guide/getting-started' },
       { text: '📰 深度评测', link: '/blog/' },
       { text: '📡 最新资讯', link: '/news/' },
-      { text: '📞 联系代充', link: 'https://work.weixin.qq.com/kfid/kfc4c78659753e2cf8d' }
+      { text: '📞 联系代充', link: 'https://chatgpta1.top/' }
     ],
 
     sidebar: {
@@ -171,7 +171,7 @@ export default defineConfig({
             { text: 'Claude代充哪家靠谱？平台选择攻略', link: '/blog/grok-recharge-platform-guide' },
             { text: 'Claude代充指南2026：国内订阅完整攻略', link: '/blog/grok-recharge-guide-2026' },
             { text: 'Claude代充最稳定教程：2026年5月实测', link: '/blog/grok-daichong-supergrok-zuiwendig-jiaocheng-2026' },
-            { text: 'Claude怎么充值？完整充值教程（微信/支付宝）', link: '/blog/grok-daichong-zenme-chong-supergrok-jiaocheng-2026' },
+            { text: 'Claude怎么充值？完整充值教程', link: '/blog/grok-daichong-zenme-chong-supergrok-jiaocheng-2026' },
             { text: 'Claude Max 20x开通教程：企业级AI如何代充', link: '/blog/supergrok-heavy-recharge-guide' },
             { text: 'Claude Max vs Pro怎么选？2026年详细对比', link: '/blog/supergrok-annual-vs-monthly' },
             { text: 'Claude Pro月付使用指南：从开通到用好', link: '/blog/supergrok-annual-subscription-guide' },
@@ -208,7 +208,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: '微信客服：Luv12203 ｜ 每天 9:00-23:00 在线',
+      message: '代充网站：chatgpta1.top ｜ 每天 9:00-23:00 在线',
       copyright: '© 2025-2026 Claude代充平台 claude-recharge.com'
     },
 
